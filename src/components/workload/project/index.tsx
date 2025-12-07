@@ -4,7 +4,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import TotalCell from "./TotalCell";
 import ProjectDataCell from "./ProjectDataCell";
-import type { Project as ProjectType } from "@/app/types/workload";
+import type { Project as ProjectType } from "@/types/workload";
 
 const ActingAsSelect = dynamic(() => import("./ActingAsSelect"), {
   ssr: false,

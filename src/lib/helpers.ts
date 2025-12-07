@@ -1,4 +1,4 @@
-import type { Project, ProjectRow } from "@/app/types/workload";
+import type { Project, ProjectRow } from "@/types/workload";
 
 export const getOverviewColor = (value: number): string => {
   if (value >= 2) return "bg-sky-200 text-sky-800";

@@ -46,9 +46,11 @@ This is a [Next.js](https://nextjs.org) project for managing workloads, bootstra
 ```
 src/
   app/
+  types/
   components/
   data/
   lib/
+  hooks/
 ```
 
 ---

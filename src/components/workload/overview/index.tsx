@@ -1,6 +1,6 @@
 import React from "react";
 import OverviewCell from "./OverviewCell";
-import { MonthlyValue } from "@/app/types/workload";
+import { MonthlyValue } from "@/types/workload";
 
 const Overview: React.FC<{ months: MonthlyValue[] }> = ({ months }) => {
   return (

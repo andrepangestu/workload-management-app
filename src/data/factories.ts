@@ -5,7 +5,7 @@ import type {
   ProjectRow,
   Project,
   WorkloadData,
-} from "@/app/types/workload";
+} from "@/types/workload";
 
 export function createMonthlyValues(
   defaultValue: number | number[] = DEFAULTS.OVERVIEW_VALUE

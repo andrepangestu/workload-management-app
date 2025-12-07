@@ -3,7 +3,7 @@ import {
   createProject,
   createProjectRow,
 } from "./factories";
-import type { WorkloadData } from "@/app/types/workload";
+import type { WorkloadData } from "@/types/workload";
 
 export const workloadData: WorkloadData = createWorkloadData({
   personName: "BIANCHINI Thierry",

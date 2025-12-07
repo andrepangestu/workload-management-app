@@ -144,9 +144,7 @@ export function WorkloadManager() {
           <p className="text-gray-500 mt-1 text-lg font-semibold">Workload</p>
         </div>
 
-        <Overview
-          months={data.monthlyOverview.map((m) => ({ ...m, checked: false }))}
-        />
+        <Overview months={data.monthlyOverview} />
 
         {data.projects.map((project) => (
           <Project
